@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Actions y Docker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="terminal-bg"></div>
+
+  <main class="container">
+    <header class="badge-row">
+      <span class="badge badge-docker">🐳 Docker</span>
+      <span class="badge badge-gh">⚙️ GitHub Actions</span>
+      <span class="badge badge-cicd">🚀 CI/CD</span>
+    </header>
+
+    <section class="card">
+      <div class="card-accent"></div>
+
+      <p class="greeting" id="greeting">Hola, Mundo</p>
+      <p class="date"    id="date">—</p>
+
+      <h1 class="headline">
+        Conociendo<br/>
+        <span class="highlight">GitHub Actions</span><br/>
+        y Docker
+      </h1>
+
+      <div class="divider"></div>
+
+      <p class="sub">
+        Este contenedor fue construido y desplegado<br/>
+        automáticamente con un <code>git push</code>.
+      </p>
+
+      <div class="pipeline">
+        <div class="step">📝<span>Código</span></div>
+        <div class="arrow">→</div>
+        <div class="step">⚙️<span>Actions</span></div>
+        <div class="arrow">→</div>
+        <div class="step">🐳<span>Docker</span></div>
+        <div class="arrow">→</div>
+        <div class="step">✅<span>Deploy</span></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Demo para video educativo · GitHub Actions &amp; Docker
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
